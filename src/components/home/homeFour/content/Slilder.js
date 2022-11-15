@@ -131,7 +131,7 @@ const Slider = () => {
                                         data-paddingleft="[0,0,0,0]"
                                     >{slide.title}</div>
 
-                                    <div className="tp-caption medium_light_white tp-resizeme"
+                                    <div className="tp-caption medium_light_white tp-resizeme color-red-200"
                                         id="slide-82-layer-3"
                                         data-blendmode="color-dodge"
                                         data-x="['center','center','center','center']"

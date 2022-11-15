@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <>
             <main id="body-content">
-                <section className="wide-tb-80 bg-fixed what-we-offer">
+                {/* <section className="wide-tb-80 bg-fixed what-we-offer">
                     <div className="container pos-rel">
                         <div className="row align-items-center">
                             <div className="col-md-6">
@@ -18,7 +18,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="bg-white wide-tb-100">
                     <div className="container">
                         <div className="row">
@@ -31,7 +31,7 @@ const Services = () => {
                             <div className="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.1s">
                                 <a href="service-details.html">
                                     <div className="icon-box-1">
-                                        <img src="images/icon-box-1.jpg" alt="" />
+                                        <img src="images/sgr.png" alt="" height={300} style={{ objectFit: "cover" }} />
                                         <div className="text">
                                             <i className="icofont-vehicle-delivery-van"></i>
                                             GROUND DELIVERY
@@ -42,7 +42,7 @@ const Services = () => {
                             <div className="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.4s">
                                 <a href="service-details.html">
                                     <div className="icon-box-1">
-                                        <img src="images/icon-box-2.jpg" alt="" />
+                                        <img src="images/Kenya.jpg" alt="" height={300} style={{ objectFit: "cover" }} />
                                         <div className="text">
                                             <i className="icofont-airplane-alt"></i>
                                             AIR DELIVERY
@@ -53,7 +53,7 @@ const Services = () => {
                             <div className="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.6s">
                                 <a href="service-details.html">
                                     <div className="icon-box-1">
-                                        <img src="images/icon-box-3.jpg" alt="" />
+                                        <img src="images/Sea.jpg" alt="" height={300} style={{ objectFit: "cover" }} />
                                         <div className="text">
                                             <i className="icofont-ship"></i>
                                             SEA DELIVERY
@@ -175,7 +175,7 @@ const Services = () => {
                         </div>
                     </div>
                 </section>
-                <section className="wide-tb-100">
+                {/* <section className="wide-tb-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
@@ -263,8 +263,8 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-                <section className="wide-tb-80 bg-scroll bg-img-6 pos-rel callout-style-1">
+                </section> */}
+                {/* <section className="wide-tb-80 bg-scroll bg-img-6 pos-rel callout-style-1">
                     <div className="bg-overlay blue opacity-60"></div>
                     <div className="container">
                         <div className="row align-items-center">
@@ -281,7 +281,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </main>
         </>
     );

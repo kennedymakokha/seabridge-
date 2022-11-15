@@ -67,7 +67,7 @@ const Content = () => {
                                                 </div>
                                                 <div className="service-inner-content media-body">
                                                     <h4 className="h4-md">Packaging and Storage</h4>
-                                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Praesent pellentesque diam vitae nibh aliquam faucibus.</p>
+                                                    <p>At Sea Bridge we are conserned about your package all through from pickup to delivery. </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ const Content = () => {
                                                 </div>
                                                 <div className="service-inner-content media-body">
                                                     <h4 className="h4-md">Safety & Quality</h4>
-                                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Praesent pellentesque diam vitae nibh aliquam faucibus.</p>
+                                                    <p>Sea Bridge prioritizes quality services .</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -95,7 +95,7 @@ const Content = () => {
                                                 </div>
                                                 <div className="service-inner-content media-body">
                                                     <h4 className="h4-md">Care for Environment</h4>
-                                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Praesent pellentesque diam vitae nibh aliquam faucibus.</p>
+                                                    <p>We are environtal cautious .</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -107,7 +107,7 @@ const Content = () => {
                     </div>
                 </section>
 
-                <section className="bg-white wide-tb-100 mb-spacer-md">
+                {/* <section className="bg-white wide-tb-100 mb-spacer-md">
                     <div className="container">
                         <div className="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
                             <h1 className="heading-main">
@@ -156,9 +156,9 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="wide-tb-100 bg-scroll counter-bg pos-rel">
+                {/* <section className="wide-tb-100 bg-scroll counter-bg pos-rel">
                     <div className="bg-overlay blue opacity-50"></div>
                     <div className="container">
                         <div className="row">
@@ -199,9 +199,9 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="wide-tb-100 pb-0">
+                {/* <section className="wide-tb-100 pb-0">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-7 ml-lg-auto pos-rel col-md-12">
@@ -223,9 +223,9 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="bg-white wide-tb-100 mb-spacer-md">
+                {/* <section className="bg-white wide-tb-100 mb-spacer-md">
                     <div className="container">
                         <div className="col-sm-12">
                             <h1 className="heading-main">
@@ -279,9 +279,9 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="wide-tb-100 bg-fixed free-quote free-quote-alt pb-0">
+                {/* <section className="wide-tb-100 bg-fixed free-quote free-quote-alt pb-0">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5 col-md-7">
@@ -327,9 +327,9 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="wide-tb-100">
+                {/* <section className="wide-tb-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
@@ -387,9 +387,9 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="wide-tb-80 bg-navy-blue callout-style-1 wow fadeInUp" data-wow-duration="0" data-wow-delay="0s">
+                {/* <section className="wide-tb-80 bg-navy-blue callout-style-1 wow fadeInUp" data-wow-duration="0" data-wow-delay="0s">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-4 col-md-12 mb-0">
@@ -405,9 +405,9 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="wide-tb-100">
+                {/* <section className="wide-tb-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
@@ -446,8 +446,8 @@ const Content = () => {
 
                         </div>
                     </div>
-                </section>
-
+                </section> */}
+                {/* 
                 <section className="wide-tb-100 bg-fixed clients-bg pos-rel">
                     <div className="bg-overlay blue opacity-80"></div>
                     <div className="container">
@@ -490,9 +490,9 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="map-bg">
+                {/* <section className="map-bg">
                     <div className="contact-details row d-flex">
                         <div className="col">
                             <h4>Germany</h4>
@@ -507,10 +507,10 @@ const Content = () => {
                     </div>
                     <div id="map-holder" className="pos-rel">
                         <div id="map_extended">
-                            <p>This will be replaced with the Google Map.</p>
+                           
                         </div>
                     </div>
-                </section>
+                </section> */}
             </main>
         </>
     );

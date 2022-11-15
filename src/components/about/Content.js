@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from './why.jpg'
 const Content = () => {
     return (
         <>
@@ -11,10 +11,43 @@ const Content = () => {
                                 <h2 className="mb-4 fw-7 txt-blue">
                                     About <span className="fw-6 txt-orange">seabridge</span>
                                 </h2>
-                                <p>Seabridge Forwarders Ltd. was incorporated in 1996. Within this period of over 20 yrs, we have distinguished ourselves as a major player in Freight Industry in Kenya. Our Head  Office is located at Signature Mall, Mombasa Road, 3rd Floor, Room 01. </p><p>We operate branch offices at Kilindini Mombasa, Jomo Kenyatta International Airport, Inland Container Depot – Embakasi Nairobi and all the main border stations throughout the Country. Worldwide we are a member of a network of freight agents in major cities of the world with computerized operations systems.</p><p> These assets enable Seabridge Forwarders Ltd. to provide freight services in the most efficient way</p>
+                                <p>Seabridge Forwarders Ltd. was incorporated in 1996. Within this period of over 20 yrs, we have distinguished ourselves as a major player in Freight Industry in Kenya.
+                                </p>
+                                <p>
+                                    Our Head Office is located at Signature Mall 3rd Floor on Mombasa Road.
+                                    We operate branch offices at Kilindini Mombasa, Jomo Kenyatta International Airport, Inland Container Depot – Embakasi Nairobi and all the main border stations throughout the Country.
+                                </p><p>
+                                    Worldwide we are a member of a network of freight agents in major cities of the world (IFLN).</p>
+                                <p> We have a dedicated qualified and dedicated workforce with computerised operation system </p>
+                                <p>
+                                    Seabridge Forwaders limited are therefore  able to provide fast efficient and reliable services to our esteemed clients
+                                </p>
                             </div>
                             <div className="col-md-6 wow fadeInRight" data-wow-duration="0" data-wow-delay="0s">
-                                <img src="images/map-bg-orange.jpg" alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="wide-tb-80">
+                    <div className="container pos-rel">
+                        <div className="row align-items-center">
+                            <div className="col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
+                                <h2 className="mb-4 fw-7 txt-blue">
+                                    Our <span className="fw-6 txt-orange">Mission</span>
+                                </h2>
+                                <p>Our Mission is to provide quick, efficient and cost-effective solutions for all your freight needs,
+                                    to be the only choice of importer and exporter by providing all clients with the highest level of service and offering an excellent service orientated approach in addressing all their Logistics, Custom and Licensing needs.</p>
+                                <p>The company is run by a team of highly experienced clearing agents in Nairobi Kenya with an extensive knowledge of handling cargo shipment across all continents & countries</p>
+                            </div>
+                            <div className="col-md-6 wow fadeInRight" data-wow-duration="0" data-wow-delay="0s">
+                                <h2 className="mb-4 fw-7 txt-blue">
+                                    Core <span className="fw-6 txt-orange">Values</span>
+                                </h2>
+                                <ul>
+                                    <li> Loyalty</li><li> Honesty</li><li> Trust</li><li> Ingenuity</li><li> Accountability</li><li> Simplicity</li><li> Respect</li><li> Value-centricity</li>
+
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -36,7 +69,7 @@ const Content = () => {
                                         </div>
                                         <div className="service-inner-content media-body">
                                             <h4 className="h4-md">Trusted Franchise</h4>
-                                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. Vivamus ac ultrices diam, vitae accumsan tellus.</p>
+                                            <p>Sea Bridge guarantees of safety to your cargo.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -49,7 +82,7 @@ const Content = () => {
                                         </div>
                                         <div className="service-inner-content media-body">
                                             <h4 className="h4-md">Customer Support</h4>
-                                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. Vivamus ac ultrices diam, vitae accumsan tellus.</p>
+                                            <p>We give 24 Hour Customer support .</p>
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +95,7 @@ const Content = () => {
                                         </div>
                                         <div className="service-inner-content media-body">
                                             <h4 className="h4-md">Reliability & Punctuality</h4>
-                                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. Vivamus ac ultrices diam, vitae accumsan tellus.</p>
+                                            <p>Sea bridge has proven beyond any doubt of punctual and reliable service .</p>
                                         </div>
                                     </div>
                                 </div>
@@ -121,7 +154,7 @@ const Content = () => {
                             <div className="col col-12 col-lg-3 col-sm-6 wow slideInUp" data-wow-duration="0" data-wow-delay="0.9s">
                                 <div className="counter-style-1 light-bg">
                                     <p className="mb-1"><i className="icofont-umbrella-alt"></i></p>
-                                    <span className="counter">2340</span>
+                                    <span className="counter">5440</span>
                                     <div>
                                         Tonnes Transported
                                     </div>
@@ -134,7 +167,8 @@ const Content = () => {
                     <div className="container-fluid">
                         <div className="row align-items-center">
                             <div className="col-lg-5 col-12 p-0">
-                                <img src="./whyus.jpg" className="w-100" alt="" />
+                                <img src={Image} alt="" className="w-100" />
+                                {/* <img src="./whyus.jpg" alt="" /> */}
                             </div>
                             <div className="col-lg-6 col-12">
                                 <div className="p-5 ">
@@ -157,7 +191,7 @@ const Content = () => {
                         </div>
                     </div>
                 </section>
-                <section className="wide-tb-100 pb-0 team-section-bottom pos-rel">
+                {/* <section className="wide-tb-100 pb-0 team-section-bottom pos-rel">
                     <div className="container">
                         <div className="col-sm-12">
                             <h1 className="heading-main">
@@ -189,7 +223,7 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* <section className="bg-white wide-tb-100 mb-spacer-md">
                     <div className="container">
                         <div className="col-sm-12">

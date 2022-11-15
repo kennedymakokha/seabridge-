@@ -5,7 +5,7 @@ const Footer = () => {
 		<>
 			{/* footer start */}
 			<footer className="wide-tb-70 bg-light-gray pb-0">
-				<div className="container">
+				{/* <div className="container">
 					<div className="row">
 
 						<div className="col-lg-4 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
@@ -65,13 +65,13 @@ const Footer = () => {
 							</div>
 						</div>
 
-						{/* <div className="col-lg-4 col-md-12 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.4s">
+						<div className="col-lg-4 col-md-12 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.4s">
 							<h3 className="footer-heading">Our Photostream</h3>
 							<ul id="basicuse" className="photo-thumbs"></ul>
-						</div> */}
+						</div> 
 
 					</div>
-				</div>
+				</div> */}
 
 				<div className="copyright-wrap bg-navy-blue wide-tb-30">
 					<div className="container">
