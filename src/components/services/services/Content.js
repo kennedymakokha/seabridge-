@@ -25,7 +25,7 @@ const Services = () => {
                             <div className="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
                                 <h1 className="heading-main">
                                     <span>what we offer</span>
-                                    Our Main Services
+                                    AirFreight/SeaFright
                                 </h1>
                             </div>
                             <div className="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.1s">

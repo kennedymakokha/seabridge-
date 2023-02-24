@@ -80,6 +80,7 @@ const Slider = () => {
                                     data-rotate="0"
                                     data-saveperformance="off"
                                     data-title="Slide"
+
                                     data-param1=""
                                     data-param2=""
                                     data-param3=""
@@ -109,71 +110,76 @@ const Slider = () => {
                                         className="rev-slidebg"
                                         data-no-retina
                                     />
-                                    <div className="tp-caption tp-resizeme NotGeneric-Title"
-                                        id={i}
-                                        data-blendmode="color-dodge"
-                                        data-x="['center','center','center','center']"
-                                        data-hoffset="['0','0','0','0']"
-                                        data-y="['middle','middle','middle','middle']"
-                                        data-voffset="['-70','-70','-70','-70']"
-                                        data-fontsize="['70','60','60','55']"
-                                        data-lineheight="['80','70','70','40']"
-                                        data-width="none"
-                                        data-height="none"
-                                        data-whitespace="nowrap"
-                                        data-type="text"
-                                        data-responsive_offset="on"
-                                        data-frames='[{"delay": 200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay": "wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                        data-textalign="['inherit','inherit','inherit','inherit']"
-                                        data-paddingtop="[0,0,0,0]"
-                                        data-paddingright="[0,0,0,0]"
-                                        data-paddingbottom="[0,0,0,0]"
-                                        data-paddingleft="[0,0,0,0]"
-                                    >{slide.title}</div>
+                                    <div style={{ backgroundColor: "green" }}>
+                                        <div className="tp-caption tp-resizeme NotGeneric-Title"
+                                            id={i}
+                                            // data-blendmode="color-dodge"
+                                            data-x="['center','center','center','center']"
+                                            data-hoffset="['0','0','0','0']"
+                                            data-y="['middle','middle','middle','middle']"
+                                            data-voffset="['-70','-70','-70','-70']"
+                                            data-fontsize="['70','60','60','55']"
+                                            data-lineheight="['80','70','70','40']"
+                                            data-width="none"
+                                            style={{ color: "#007bff" }}
+                                            data-height="none"
+                                            data-whitespace="nowrap"
+                                            data-type="text"
+                                            data-responsive_offset="on"
+                                            data-frames='[{"delay": 200,"speed":1000,"frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay": "wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                            data-textalign="['inherit','inherit','inherit','inherit']"
+                                            data-paddingtop="[0,0,0,0]"
+                                            data-paddingright="[0,0,0,0]"
+                                            data-paddingbottom="[0,0,0,0]"
+                                            data-paddingleft="[0,0,0,0]"
+                                        >{slide.title}</div>
+                                        {/* 
+                                        <div className="tp-caption medium_light_white tp-resizeme color-red-200"
+                                            id="slide-82-layer-3"
+                                            data-blendmode="color-dodge"
+                                            data-x="['center','center','center','center']"
+                                            data-hoffset="['0','0','0','0']"
+                                            data-y="['middle','middle','middle','middle']"
+                                            data-voffset="['-10','-10','-10','-10']"
+                                            data-width="none"
+                                            data-height="none"
+                                            style={{ color: "#007bff" }}
+                                            data-whitespace="nowrap"
+                                            data-type="text"
+                                            data-responsive_offset="on"
+                                            data-frames='[{"delay": 500,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay": "wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                            data-textalign="['inherit','inherit','inherit','inherit']"
+                                            data-paddingtop="[0,0,0,0]"
+                                            data-paddingright="[0,0,0,0]"
+                                            data-paddingbottom="[0,0,0,0]"
+                                            data-paddingleft="[0,0,0,0]"
+                                            data-fontsize="['28','28','28','28']"
+                                            data-lineheight="['34','34','34','50']"
+                                        >{slide.describe}</div> */}
 
-                                    <div className="tp-caption medium_light_white tp-resizeme color-red-200"
-                                        id="slide-82-layer-3"
-                                        data-blendmode="color-dodge"
-                                        data-x="['center','center','center','center']"
-                                        data-hoffset="['0','0','0','0']"
-                                        data-y="['middle','middle','middle','middle']"
-                                        data-voffset="['-10','-10','-10','-10']"
-                                        data-width="none"
-                                        data-height="none"
-                                        data-whitespace="nowrap"
-                                        data-type="text"
-                                        data-responsive_offset="on"
-                                        data-frames='[{"delay": 500,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay": "wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                        data-textalign="['inherit','inherit','inherit','inherit']"
-                                        data-paddingtop="[0,0,0,0]"
-                                        data-paddingright="[0,0,0,0]"
-                                        data-paddingbottom="[0,0,0,0]"
-                                        data-paddingleft="[0,0,0,0]"
-                                        data-fontsize="['28','28','28','28']"
-                                        data-lineheight="['34','34','34','50']"
-                                    >{slide.describe}</div>
+                                        {/* <div className="tp-caption tp-resizeme small_light_white "
+                                            id="slide-82-layer-4"
+                                            data-x="['center','center','center','center']"
+                                            data-hoffset="['0','0','0','0']"
+                                            data-y="['middle','middle','middle','middle']"
+                                            data-voffset="['60','60','60','60']"
+                                            data-width="none"
+                                            data-height="none"
+                                            style={{ color: "black" }}
+                                            data-whitespace="nowrap"
+                                            data-type="text"
+                                            data-responsive_offset="on"
+                                            data-frames='[{"delay":600,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                            data-textalign="['inherit','inherit','inherit','inherit']"
+                                            data-paddingtop="[0,0,0,0]"
+                                            data-paddingright="[0,0,0,0]"
+                                            data-paddingbottom="[0,0,0,0]"
+                                            data-paddingleft="[0,0,0,0]"
+                                            data-fontsize="['16','16','16','13']"
+                                            data-lineheight="['30','30','30','20']"
 
-                                    <div className="tp-caption tp-resizeme small_light_white "
-                                        id="slide-82-layer-4"
-                                        data-x="['center','center','center','center']"
-                                        data-hoffset="['0','0','0','0']"
-                                        data-y="['middle','middle','middle','middle']"
-                                        data-voffset="['60','60','60','60']"
-                                        data-width="none"
-                                        data-height="none"
-                                        data-whitespace="nowrap"
-                                        data-type="text"
-                                        data-responsive_offset="on"
-                                        data-frames='[{"delay":600,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                        data-textalign="['inherit','inherit','inherit','inherit']"
-                                        data-paddingtop="[0,0,0,0]"
-                                        data-paddingright="[0,0,0,0]"
-                                        data-paddingbottom="[0,0,0,0]"
-                                        data-paddingleft="[0,0,0,0]"
-                                        data-fontsize="['16','16','16','13']"
-                                        data-lineheight="['30','30','30','20']"
-
-                                    >{slide.caption}</div>
+                                        >{slide.caption}</div> */}
+                                    </div>
 
                                     <div className="tp-caption tp-resizeme btn-theme bg-navy-blue rev-btn"
                                         id="slide-82-layer-5"
@@ -186,7 +192,7 @@ const Slider = () => {
                                         data-whitespace="nowrap"
                                         data-type="text"
                                         data-responsive_offset="on"
-                                        data-frames='[{"delay":750,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                        data-frames='[{"delay":750,"speed":1000,"frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                         data-textalign="['inherit','inherit','inherit','inherit']"
                                         data-paddingtop="[0,0,0,0]"
                                         data-paddingright="[30,30,30,30]"

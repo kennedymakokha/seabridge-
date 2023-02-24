@@ -13,12 +13,8 @@ const RequestModal = () => {
                                         <i className="icofont-close-line"></i>
                                     </a>
                                     <div className="d-lg-flex justify-content-end no-gutters mb-spacer-md" style={{ boxShadow: "0px 18px 76px 0px rgba(0, 0, 0, 0.06)" }}>
-                                        <div className="col bg-fixed bg-img-7 request_pag_img">
-                                            &nbsp;
-                                        </div>
 
-
-                                        <div className="col-md-7 col-12">
+                                        <div className="col-md-12 col-12">
                                             <div className="px-3 m-5">
                                                 <h2 className="h2-xl mb-4 fw-6">Request A Quote</h2>
                                                 <form action="#" method="post" noValidate="novalidate" className="rounded-field">

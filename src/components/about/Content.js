@@ -11,15 +11,19 @@ const Content = () => {
                                 <h2 className="mb-4 fw-7 txt-blue">
                                     About <span className="fw-6 txt-orange">seabridge</span>
                                 </h2>
-                                <p>Seabridge Forwarders Ltd. was incorporated in 1996. Within this period of over 20 yrs, we have distinguished ourselves as a major player in Freight Industry in Kenya.
+                                <p style={styles.paragragh}>Seabridge Forwarders Ltd. was incorporated in 1996. Within this period of over 20 yrs, we have distinguished ourselves as a major player in Freight Industry in Kenya.
                                 </p>
-                                <p>
+                                <p style={styles.paragragh}>
                                     Our Head Office is located at Signature Mall 3rd Floor on Mombasa Road.
                                     We operate branch offices at Kilindini Mombasa, Jomo Kenyatta International Airport, Inland Container Depot – Embakasi Nairobi and all the main border stations throughout the Country.
-                                </p><p>
+                                </p>
+                                <p style={styles.paragragh}>
                                     Worldwide we are a member of a network of freight agents in major cities of the world (IFLN).</p>
-                                <p> We have a dedicated qualified and dedicated workforce with computerised operation system </p>
-                                <p>
+                                <p style={styles.paragragh}>
+                                    Seabridge forwaders is now a member of KIFWA (Kenya International Freight and Warehousing Assiosiation).</p>
+
+                                <p style={styles.paragragh}> We have a dedicated qualified and dedicated workforce with computerised operation system </p>
+                                <p style={styles.paragragh}>
                                     Seabridge Forwaders limited are therefore  able to provide fast efficient and reliable services to our esteemed clients
                                 </p>
                             </div>
@@ -29,29 +33,77 @@ const Content = () => {
                         </div>
                     </div>
                 </section>
-                <section className="wide-tb-80">
+                {/* <section className="wide-tb-80">
                     <div className="container pos-rel">
                         <div className="row align-items-center">
                             <div className="col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
-                                <h2 className="mb-4 fw-7 txt-blue">
-                                    Our <span className="fw-6 txt-orange">Mission</span>
-                                </h2>
-                                <p>Our Mission is to provide quick, efficient and cost-effective solutions for all your freight needs,
-                                    to be the only choice of importer and exporter by providing all clients with the highest level of service and offering an excellent service orientated approach in addressing all their Logistics, Custom and Licensing needs.</p>
-                                <p>The company is run by a team of highly experienced clearing agents in Nairobi Kenya with an extensive knowledge of handling cargo shipment across all continents & countries</p>
+                                <div style={{ backgroundColor: 'red' }}>
+                                    <h2 className="mb-4 fw-7 txt-blue">
+                                        Our <span className="fw-6 txt-orange">Mission</span>
+                                    </h2>
+                                </div>
+                                <div>
+                                    <p style={styles.paragragh}>Our Mission is to provide quick, efficient and cost-effective solutions for all your freight needs,
+                                        to be the only choice of importer and exporter by providing all clients with the highest level of service and offering an excellent service orientated approach in addressing all their Logistics, Custom and Licensing needs.</p>
+                                    <p style={styles.paragragh}>The company is run by a team of highly experienced clearing agents in Nairobi Kenya with an extensive knowledge of handling cargo shipment across all continents & countries</p>
+
+                                </div>
                             </div>
                             <div className="col-md-6 wow fadeInRight" data-wow-duration="0" data-wow-delay="0s">
-                                <h2 className="mb-4 fw-7 txt-blue">
-                                    Core <span className="fw-6 txt-orange">Values</span>
-                                </h2>
-                                <ul>
-                                    <li> Loyalty</li><li> Honesty</li><li> Trust</li><li> Ingenuity</li><li> Accountability</li><li> Simplicity</li><li> Respect</li><li> Value-centricity</li>
+                                <div style={{ backgroundColor: 'red' }}>
+                                    <h2 className="mb-4 fw-7 txt-blue">
+                                        Core <span className="fw-6 txt-orange">Values</span>
+                                    </h2>
+                                </div>
+                                <div>
+                                    <ul>
+                                         <li> Loyalty</li ><li> Honesty</li ><li> Trust</li ><li> Ingenuity</li ><li> Accountability</li ><li> Simplicity</li ><li> Respect</li ><li> Value-centricity</li>
 
-                                </ul>
+                                    </ul>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
+                <div style={{ marginRight: "18%", marginLeft: "18%", display: "flex" }} >
+                    <div style={{ width: '50%', }} >
+                        <div >
+                            <h2 className="mb-4 fw-7 txt-blue">
+                                Our <span className="fw-6 txt-orange">Mission</span>
+                            </h2>
+                        </div>
+                        <div>
+                            <p style={styles.paragragh}>Our Mission is to provide quick, efficient and cost-effective solutions for all your freight needs,
+                                to be the only choice of importer and exporter by providing all clients with the highest level of service and offering an excellent service orientated approach in addressing all their Logistics, Custom and Licensing needs.</p>
+                            <p style={styles.paragragh}>The company is run by a team of highly experienced clearing agents in Nairobi Kenya with an extensive knowledge of handling cargo shipment across all continents & countries</p>
+
+                        </div>
+                    </div>
+                    <div style={{ width: '40%', }} >
+                        <div >
+                            <h2 className="mb-4 fw-7 txt-blue">
+                                Core <span className="fw-6 txt-orange">Values</span>
+                            </h2>
+                        </div>
+                        <div>
+                            <ul style={{
+
+                            }}>
+                                <li style={styles.paragragh}> Loyalty</li >
+                                <li style={styles.paragragh}> Honesty</li >
+                                <li style={styles.paragragh}> Trust</li >
+                                <li style={styles.paragragh}> Ingenuity</li >
+                                <li style={styles.paragragh}> Accountability</li >
+                                <li style={styles.paragragh}> Simplicity</li >
+                                <li style={styles.paragragh}> Respect</li >
+                                <li style={styles.paragragh}> Value-centricity</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <section className="bg-light-gray wide-tb-100 pb-5 why-choose">
                     <div className="container pos-rel">
                         <div className="row">
@@ -69,7 +121,7 @@ const Content = () => {
                                         </div>
                                         <div className="service-inner-content media-body">
                                             <h4 className="h4-md">Trusted Franchise</h4>
-                                            <p>Sea Bridge guarantees of safety to your cargo.</p>
+                                            <p style={styles.paragragh}>Sea Bridge guarantees of safety to your cargo.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +134,7 @@ const Content = () => {
                                         </div>
                                         <div className="service-inner-content media-body">
                                             <h4 className="h4-md">Customer Support</h4>
-                                            <p>We give 24 Hour Customer support .</p>
+                                            <p style={styles.paragragh}>We give 24 Hour Customer support .</p>
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +147,7 @@ const Content = () => {
                                         </div>
                                         <div className="service-inner-content media-body">
                                             <h4 className="h4-md">Reliability & Punctuality</h4>
-                                            <p>Sea bridge has proven beyond any doubt of punctual and reliable service .</p>
+                                            <p style={styles.paragragh}>Sea bridge has proven beyond any doubt of punctual and reliable service .</p>
                                         </div>
                                     </div>
                                 </div>
@@ -328,27 +380,27 @@ const Content = () => {
                             </div>
                             <div className="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0" data-wow-delay="0s">
                                 <h4 className="h4-md mb-3">Lobortis sit magna ornare magna egestas?</h4>
-                                <p>Etiam sit amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula egestas magna suscipit lectus magna suscipit luctus undo blandit vitae purus laoreet</p>
+                                <p style={{color:'black',fontSize:82}}>Etiam sit amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula egestas magna suscipit lectus magna suscipit luctus undo blandit vitae purus laoreet</p>
                             </div>
                             <div className="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.2s">
                                 <h4 className="h4-md mb-3">Aliquam dapibus pretium ornare?</h4>
-                                <p>Feugiat eros ligula massa lipsum primis in orci luctus et ultrices posuere cubilia curae congue lorem. ante ipsum primis in faucibus bibendum sit amet in odio</p>
+                                <p style={{color:'black',fontSize:82}}>Feugiat eros ligula massa lipsum primis in orci luctus et ultrices posuere cubilia curae congue lorem. ante ipsum primis in faucibus bibendum sit amet in odio</p>
                             </div>
                             <div className="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.4s">
                                 <h4 className="h4-md mb-3">Placeat axime facere omnis volute?</h4>
-                                <p>Etiam sit amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula egestas magna suscipit lectus magna suscipit luctus undo blandit vitae purus laoreet</p>
+                                <p style={{color:'black',fontSize:82}}>Etiam sit amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula egestas magna suscipit lectus magna suscipit luctus undo blandit vitae purus laoreet</p>
                             </div>
                             <div className="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.6s">
                                 <h4 className="h4-md mb-3">Dapibus lobortis pretium ornare?</h4>
-                                <p>Feugiat eros ligula massa lipsum primis in orci luctus et ultrices posuere cubilia curae congue lorem. ante ipsum primis in faucibus bibendum sit amet in odio</p>
+                                <p style={{color:'black',fontSize:82}}>Feugiat eros ligula massa lipsum primis in orci luctus et ultrices posuere cubilia curae congue lorem. ante ipsum primis in faucibus bibendum sit amet in odio</p>
                             </div>
                             <div className="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.8s">
                                 <h4 className="h4-md mb-3">An interdum lobortis pretium ornare?</h4>
-                                <p>Etiam sit amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula egestas magna suscipit lectus magna suscipit luctus undo blandit vitae purus laoreet</p>
+                                <p style={{color:'black',fontSize:82}}>Etiam sit amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula egestas magna suscipit lectus magna suscipit luctus undo blandit vitae purus laoreet</p>
                             </div>
                             <div className="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.9s">
                                 <h4 className="h4-md mb-3">Interdum lobortis pretium ornare?</h4>
-                                <p>Feugiat eros ligula massa lipsum primis in orci luctus et ultrices posuere cubilia curae congue lorem. ante ipsum primis in faucibus bibendum sit amet in odio</p>
+                                <p style={{color:'black',fontSize:82}}>Feugiat eros ligula massa lipsum primis in orci luctus et ultrices posuere cubilia curae congue lorem. ante ipsum primis in faucibus bibendum sit amet in odio</p>
                             </div>
                         </div>
                     </div>
@@ -376,3 +428,9 @@ const Content = () => {
     );
 };
 export default Content;
+const styles = {
+    paragragh: {
+        color: 'black',
+        fontSize: 18,
+    }
+}

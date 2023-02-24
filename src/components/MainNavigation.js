@@ -14,7 +14,7 @@ function MainNavigation() {
       <Routes>
         {/** Home */}
         <Route path="/" element={<HomeFour />} />
-        <Route path="/home-one" exact={true} element={<HomeFour />} />
+        {/* <Route path="/home-one" exact={true} element={<HomeFour />} /> */}
         {/* <Route path="/home-two" exact={true} element={<HomeTwo />} />
         <Route path="/home-three" exact={true} element={<HomeThree />} />
         <Route path="/home-four" exact={true} element={<HomeFour />} />

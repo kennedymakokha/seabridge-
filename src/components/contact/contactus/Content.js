@@ -29,7 +29,7 @@ const Content = () => {
                             </div>
                             <div className="col-md-6 col-sm-12 col-lg-4 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
                                 <div className="contact-detail-shadow">
-                                    <h4>Mpmbasa</h4>
+                                    <h4>Mombasa</h4>
                                     <div className="d-flex align-items-start items">
                                         <i className="icofont-google-map"></i> <span>
                                             Kilindini</span>

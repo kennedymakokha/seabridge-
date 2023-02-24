@@ -1,5 +1,7 @@
 import React from "react";
-
+import Freight from "./../../../../assets/freight.jpeg";
+import Road from "./../../../../assets/road.jpeg";
+import Car from "./../../../../assets/car.jpeg";
 const Content = () => {
     return (
         <>
@@ -11,7 +13,7 @@ const Content = () => {
                             <div className="col-md-4" >
                                 <a href="service-details.html">
                                     <div className="icon-box-with-img" style={{ backgroundColor: "rgba(24, 54, 80, 0.9)" }}>
-                                        <img src="images/icon-box-img-1.jpg" alt="" />
+                                        <img src={Freight} style={styles.service_detail_image} alt="" />
                                         <div className="text">
                                             Freight Forwarding
                                         </div>
@@ -22,7 +24,7 @@ const Content = () => {
                             <div className="col-md-4">
                                 <a href="service-details.html">
                                     <div className="icon-box-with-img" style={{ backgroundColor: "rgba(24, 54, 80, 0.9)" }}>
-                                        <img src="images/icon-box-img-2.jpg" alt="" />
+                                        <img src={Road} style={styles.service_detail_image} alt="" />
                                         <div className="text">
                                             Road Freight
                                         </div>
@@ -33,7 +35,7 @@ const Content = () => {
                             <div className="col-md-4">
                                 <a href="service-details.html">
                                     <div className="icon-box-with-img" style={{ backgroundColor: "rgba(24, 54, 80, 0.9)" }}>
-                                        <img src="images/icon-box-img-3.jpg" alt="" />
+                                        <img src={Car} alt="" style={styles.service_detail_image} />
                                         <div className="text">
                                             Car transportation
                                         </div>
@@ -516,3 +518,10 @@ const Content = () => {
     );
 };
 export default Content;
+
+const styles = {
+    service_detail_image: {
+        height: '150px',
+        objectFit: 'cover'
+    }
+}
