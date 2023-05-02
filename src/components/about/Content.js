@@ -1,5 +1,5 @@
 import React from "react";
-import Image from './why.jpg'
+import Image from './globe.png'
 const Content = () => {
     return (
         <>
@@ -9,7 +9,7 @@ const Content = () => {
                         <div className="row align-items-center">
                             <div className="col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
                                 <h2 className="mb-4 fw-7 txt-blue">
-                                    About <span className="fw-6 txt-orange">seabridge</span>
+                                    About <span className="fw-6 txt-orange">Seabridge Forwarders Ltd</span>
                                 </h2>
                                 <p style={styles.paragragh}>Seabridge Forwarders Ltd. was incorporated in 1996. Within this period of over 20 yrs, we have distinguished ourselves as a major player in Freight Industry in Kenya.
                                 </p>
@@ -20,15 +20,15 @@ const Content = () => {
                                 <p style={styles.paragragh}>
                                     Worldwide we are a member of a network of freight agents in major cities of the world (IFLN).</p>
                                 <p style={styles.paragragh}>
-                                    Seabridge forwaders is now a member of KIFWA (Kenya International Freight and Warehousing Assiosiation).</p>
+                                    Seabridge forwaders limited is a member of KIFWA (Kenya International Freight and Warehousing Assiosiation).</p>
 
-                                <p style={styles.paragragh}> We have a dedicated qualified and dedicated workforce with computerised operation system </p>
+                                <p style={styles.paragragh}> We have a qualified and dedicated workforce with computerised operation system </p>
                                 <p style={styles.paragragh}>
                                     Seabridge Forwaders limited are therefore  able to provide fast efficient and reliable services to our esteemed clients
                                 </p>
                             </div>
-                            <div className="col-md-6 wow fadeInRight" data-wow-duration="0" data-wow-delay="0s">
-
+                            <div className="col-md-6 wow fadeInRight justify-content-center align-items-center flex" data-wow-duration="0" data-wow-delay="0s">
+                                <img src="images/about.jpeg" alt="" className="rounded" style={{ height: "500px", objectFit: 'contain' }} />
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ const Content = () => {
                         <div>
                             <p style={styles.paragragh}>Our Mission is to provide quick, efficient and cost-effective solutions for all your freight needs,
                                 to be the only choice of importer and exporter by providing all clients with the highest level of service and offering an excellent service orientated approach in addressing all their Logistics, Custom and Licensing needs.</p>
-                            <p style={styles.paragragh}>The company is run by a team of highly experienced clearing agents in Nairobi Kenya with an extensive knowledge of handling cargo shipment across all continents & countries</p>
+                            <p style={styles.paragragh}>Seabridge is run by a team of highly experienced clearing agents in Nairobi Kenya with an extensive knowledge of handling cargo shipment across all continents & countries</p>
 
                         </div>
                     </div>
@@ -121,7 +121,7 @@ const Content = () => {
                                         </div>
                                         <div className="service-inner-content media-body">
                                             <h4 className="h4-md">Trusted Franchise</h4>
-                                            <p style={styles.paragragh}>Sea Bridge guarantees of safety to your cargo.</p>
+                                            <p style={styles.paragragh}>Seabridge guarantees of safety to your cargo.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -134,7 +134,7 @@ const Content = () => {
                                         </div>
                                         <div className="service-inner-content media-body">
                                             <h4 className="h4-md">Customer Support</h4>
-                                            <p style={styles.paragragh}>We give 24 Hour Customer support .</p>
+                                            <p style={styles.paragragh}>We offer 24 Hour Customer support .</p>
                                         </div>
                                     </div>
                                 </div>
@@ -147,7 +147,7 @@ const Content = () => {
                                         </div>
                                         <div className="service-inner-content media-body">
                                             <h4 className="h4-md">Reliability & Punctuality</h4>
-                                            <p style={styles.paragragh}>Sea bridge has proven beyond any doubt of punctual and reliable service .</p>
+                                            <p style={styles.paragragh}>Seabridge has proven beyond any doubt of punctual and reliable service .</p>
                                         </div>
                                     </div>
                                 </div>
@@ -170,7 +170,7 @@ const Content = () => {
                         </div>
                     </div>
                 </section> */}
-                <section className="wide-tb-100 mb-spacer-md">
+                {/* <section className="wide-tb-100 mb-spacer-md">
                     <div className="container wide-tb-100 pb-0">
                         <div className="row d-flex align-items-center">
                             <div className="col col-12 col-lg-3 col-sm-6 wow slideInUp" data-wow-duration="0" data-wow-delay="0s">
@@ -214,12 +214,12 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="pos-rel bg-sky-blue">
-                    <div className="container-fluid">
+                    <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-5 col-12 p-0">
-                                <img src={Image} alt="" className="w-100" />
+                            <div className="col-lg-5 col-12 flex align-items-center">
+                                <img src={Image} alt="" className="w-10" />
                                 {/* <img src="./whyus.jpg" alt="" /> */}
                             </div>
                             <div className="col-lg-6 col-12">
@@ -243,7 +243,7 @@ const Content = () => {
                         </div>
                     </div>
                 </section>
-                {/* <section className="wide-tb-100 pb-0 team-section-bottom pos-rel">
+                <section className="wide-tb-100 pb-0 team-section-bottom pos-rel">
                     <div className="container">
                         <div className="col-sm-12">
                             <h1 className="heading-main">
@@ -254,28 +254,28 @@ const Content = () => {
                         <div className="row pb-4">
                             <div className="col-sm-12 col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0s">
                                 <div className="team-section-two">
-                                    <img src="images/team/team-1.jpg" alt="" className="rounded" />
-                                    <h4 className="h4-md txt-orange">John Morise</h4>
-                                    <h5 className="h5-md txt-ligt-gray">Founder</h5>
+                                    <img src="images/team/maam.jpeg" alt="" className="rounded" style={{ height: "300px", objectFit: 'cover' }} />
+                                    {/* <h4 className="h4-md txt-orange">John Morise</h4>
+                                    <h5 className="h5-md txt-ligt-gray">Founder</h5> */}
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.1s">
                                 <div className="team-section-two">
-                                    <img src="images/team/team-2.jpg" alt="" className="rounded" />
-                                    <h4 className="h4-md txt-orange">Kevin Mash</h4>
-                                    <h5 className="h5-md txt-ligt-gray">Head Operational</h5>
+                                    <img src="images/team/mzae.png" alt="" className="rounded" style={{ height: "300px", objectFit: 'cover' }} />
+                                    {/* <h4 className="h4-md txt-orange">Kevin Mash</h4>
+                                    <h5 className="h5-md txt-ligt-gray">Head Operational</h5> */}
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.2s">
                                 <div className="team-section-two">
-                                    <img src="images/team/team-3.jpg" alt="" className="rounded" />
-                                    <h4 className="h4-md txt-orange">Mike Douglos</h4>
-                                    <h5 className="h5-md txt-ligt-gray">Team Lead Support</h5>
+                                    <img src="images/team/mbois.png" alt="" className="rounded" style={{ height: "300px", objectFit: 'fit' }} />
+                                    {/* <h4 className="h4-md txt-orange">Mike Douglos</h4>
+                                    <h5 className="h5-md txt-ligt-gray">Team Lead Support</h5> */}
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section> */}
+                </section>
                 {/* <section className="bg-white wide-tb-100 mb-spacer-md">
                     <div className="container">
                         <div className="col-sm-12">

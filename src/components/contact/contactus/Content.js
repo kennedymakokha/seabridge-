@@ -3,17 +3,17 @@ import React from "react";
 const Content = () => {
     return (
         <>
-            <main id="body-content">
-                <section className="wide-tb-80 contact-full-shadow">
+            <main id="body-content" style={{ backgroundColor: "black" }}>
+                <section className="wide-tb-80 contact-full-shadow" style={styles.paragragh}>
                     <div className="container">
                         <div className="contact-map-bg">
                             <img src="images/map-bg.png" alt="" />
                         </div>
                         <div className="row justify-content-between">
-                            <div className="col-md-6 col-sm-12 col-lg-4 wow fadeInRight" data-wow-duration="0" data-wow-delay="0s">
+                            <div className="col-md-6 col-sm-12 col-lg-5 wow fadeInRight" data-wow-duration="0" data-wow-delay="0s">
                                 <div className="contact-detail-shadow">
                                     <h4>Nairobi</h4>
-                                    <div className="d-flex align-items-start items">
+                                    <div className="d-flex align-items-start items" style={styles.paragragh}>
                                         <i className="icofont-google-map"></i> <span>Head Office,
                                             P.O.Box 38742 - 00500, Signature Mall 3rd floor ,
 
@@ -27,7 +27,7 @@ const Content = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-sm-12 col-lg-4 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
+                            <div className="col-md-6 col-sm-12 col-lg-5 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
                                 <div className="contact-detail-shadow">
                                     <h4>Mombasa</h4>
                                     <div className="d-flex align-items-start items">
@@ -97,15 +97,22 @@ const Content = () => {
                         </div>
                     </div>
                 </section>
-                {/* <section className="map-bg"> */}
-                {/* <div id="map-holder" className="pos-rel"> */}
-                {/* <div id="map_extended"> */}
-                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5981354571118!2d36.95125481475412!3d-1.4170492989665175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0b355716bf25%3A0xe1c1d3e8a9552300!2sSignature%20Mall!5e0!3m2!1sen!2ske!4v1668481694621!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-                {/* </div> */}
-                {/* </div> */}
-                {/* </section> */}
+                <section className="map-bg">
+                    <div id="map-holder" className="pos-rel">
+                        <div id="map_extended">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.598135455332!2d36.9534435!3d-1.4170493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0b355716bf25%3A0xe1c1d3e8a9552300!2sSignature%20Mall!5e0!3m2!1sen!2ske!4v1677552667723!5m2!1sen!2ske" width="100%" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5981354571118!2d36.95125481475412!3d-1.4170492989665175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0b355716bf25%3A0xe1c1d3e8a9552300!2sSignature%20Mall!5e0!3m2!1sen!2ske!4v1668481694621!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+                        </div>
+                    </div>
+                </section>
             </main>
         </>
     );
 };
 export default Content;
+const styles = {
+    paragragh: {
+        color: 'black',
+        fontSize: 18,
+    }
+}

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.7b52cf73.js",
+    "main.js": "/static/js/main.be0514d5.js",
     "static/media/truck.jpeg": "/static/media/truck.a087587004896da71bd0.jpeg",
     "static/media/Plane-.jpg": "/static/media/Plane-.65b9c9a1bf94c6b13b4a.jpg",
     "static/media/container1.jpg": "/static/media/container1.81fa84a825237f65ac05.jpg",
     "static/media/Sgr1.jpg": "/static/media/Sgr1.3ba56aed7b0e72706b24.jpg",
     "static/media/why.jpg": "/static/media/why.bc249a870898bf0c0c52.jpg",
     "index.html": "/index.html",
-    "main.7b52cf73.js.map": "/static/js/main.7b52cf73.js.map"
+    "main.be0514d5.js.map": "/static/js/main.be0514d5.js.map"
   },
   "entrypoints": [
-    "static/js/main.7b52cf73.js"
+    "static/js/main.be0514d5.js"
   ]
 }

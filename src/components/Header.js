@@ -7,11 +7,11 @@ const Header = () => {
 		<>
 			{/* <Loader /> */}
 			<header className="fixed-top header-fullpage bordered-nav wow fadeInDown">
-				<nav className="navbar navbar-expand-lg " style={{ backgroundColor: "rgba(24, 54, 80, 0.65)" }}>
+				<nav className="navbar navbar-expand-lg " style={{ backgroundColor: "#F8F8F8" }}>
 					<div className="container text-nowrap bdr-nav px-0">
 						<div className="d-flex mr-auto">
 							<Link className="navbar-brand rounded-bottom light-bg" to="/">
-								<img src="images/logo.png" alt="" />
+								<img src="images/logo.png" alt="" style={{ height: "100px" }} />
 							</Link>
 						</div>
 						<span className="order-lg-last d-inline-flex request-btn">
@@ -23,25 +23,25 @@ const Header = () => {
 							<span className="icon-bar"></span>
 						</button>
 						<div className="collapse navbar-collapse" id="navbarCollapse" data-hover="dropdown" data-animations="slideInUp slideInUp slideInUp slideInUp">
-							<ul className="navbar-nav ml-auto">
+							<ul className="navbar-nav ml-auto" >
 								<li className="nav-item">
-									<Link className="nav-link" to="/">Home</Link>
+									<Link className="nav-link" to="/" style={{ color: "rgb(0, 123, 255)" }}> Home</Link>
 								</li>
 								<li className="nav-item">
-									<Link className="nav-link" to="/about">About</Link>
+									<Link className="nav-link" to="/about" style={{ color: "rgb(0, 123, 255)" }}>About</Link>
 								</li>
 
 								<li className="nav-item">
-									<Link className="nav-link" to="/services">Services</Link>
+									<Link className="nav-link" to="/services" style={{ color: "rgb(0, 123, 255)" }}>Services</Link>
 								</li>
 								{/* <li className="nav-item">
 									<Link className="nav-link"to="/services">News</Link>
 								</li> */}
-								<li className="nav-item dropdown">
-									<Link className="nav-link dropdown-toggle-mob" to="/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact <i className="icofont-rounded-down"></i></Link>
+								<li className="nav-item ">
+									<Link className="nav-link dropdown-toggle-mob" to="/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{ color: "rgb(0, 123, 255)" }}>Contact <i className="icofont-rounded-down"></i></Link>
 									<ul className="dropdown-menu">
-										<li><Link className="dropdown-item" to="/contact">Contact Us</Link></li>
-										<li><Link className="dropdown-item" to="/contactusoption">Contact Us Option</Link></li>
+										<li><Link className="dropdown-item" to="/contact" style={{ color: "rgb(0, 123, 255)" }}>Contact Us</Link></li>
+										{/* <li><Link className="dropdown-item" to="/contactusoption">Contact Us Option</Link></li> */}
 									</ul>
 								</li>
 							</ul>

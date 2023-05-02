@@ -1263,9 +1263,9 @@ footer .social-icons a:hover {
 /*    Page Breadcrumbs Style
 /*------------------------------------------*/
 .breadcrumbs-page {
-  background-image: url(../images/breadcrumbs_bg.jpg);
+  background-image: url(../images/bred.jpeg);
   background-repeat: no-repeat;
-  padding: 7rem 0;
+  padding: 1rem 0;
   background-position: center center !important;
   margin-top: 136px;
 }
@@ -1293,7 +1293,7 @@ footer .social-icons a:hover {
 }
 .breadcrumbs-description {
   padding: 0.75rem 1.5rem;
-  color: #fff;
+  color: #000;
   border-left: 2px solid #34ccff;
   max-width: 50%;
   margin-top: 15px;

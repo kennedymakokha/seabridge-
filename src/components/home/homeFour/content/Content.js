@@ -69,7 +69,7 @@ const Content = () => {
                                                 </div>
                                                 <div className="service-inner-content media-body">
                                                     <h4 className="h4-md">Packaging and Storage</h4>
-                                                    <p>At Sea Bridge we are conserned about your package all through from pickup to delivery. </p>
+                                                    <p>At Seabridge we are conserned about your package all through from pickup to delivery. </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -83,7 +83,7 @@ const Content = () => {
                                                 </div>
                                                 <div className="service-inner-content media-body">
                                                     <h4 className="h4-md">Safety & Quality</h4>
-                                                    <p>Sea Bridge prioritizes quality services .</p>
+                                                    <p>Seabridge prioritizes quality services .</p>
                                                 </div>
                                             </div>
                                         </div>
